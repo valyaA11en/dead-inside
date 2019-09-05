@@ -1,0 +1,188 @@
+/*heder*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+}
+
+.Heder .slider
+{
+    -webkit-background-size:cover; /* CSS3 */
+    -moz-background-size:cover; /* CSS3 */
+    -o-background-size:cover; /* CSS3 */
+    background-size:cover; /* CSS3 */
+
+}
+
+.Heder .slider .intro
+{
+    height: 5px;
+    text-align: center;
+    color: #fff;
+    padding-top: 1px;
+}
+
+
+.Heder .slider .intro h2
+{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top:4px solid #fff;
+    border-bottom:4px solid #fff;
+    padding: 5PX 0;
+
+
+}
+
+.Heder .slider .intro button
+{
+    background:none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+
+.Heder .navbar
+{
+    background-color: #252e30;
+    color: #fff;
+    overflow: hidden;
+}
+
+.Heder .navbar h2{float: left;text-transform: none}
+
+.Heder .navbar h2 span {color: #2ecc71}
+
+.Heder .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+
+.Heder .navbar ul li
+{
+    float: left;
+    padding: 10px;
+}
+
+.Heder .navbar ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Heder .navbar ul li.active a ,
+.Heder .navbar ul li a:hover {color:#2ecc71;}
+/* end heder*/
+/*section*/
+.box{
+    background: none;
+    border: 2px solid #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5), inset 0 0 100px rgba(0,0,0,0.4);
+    float: left;
+    height: 300px;
+    margin: 60px;
+    position: relative;
+    width: 330px;
+    transition: background 0.3s ease-out;
+}
+.box p{
+    color: white;
+    font-size: 45px;
+    line-height: 45px;
+    padding: 12px;
+    opacity: 0;
+    text-align: center;
+    text-shadow: 0 -2px 1px rgba(0,0,0,0.25), 0 2px 0 ;
+    position: absolute;
+    top: 0;
+}
+
+section {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    height: 230px;
+}
+
+
+/*footer*/
+.footer-col a {
+    color: rgba(0,0,0,0.75);
+}
+
+.content {
+    height: 80vh;
+    background: black;
+}
+
+.footer-content-wrapper {
+    width: 80%;
+    margin:100px ;
+}
+
+.footer-col {
+    display: inline-block;
+    padding: 0.5em 0.1em 0.5em 1em;
+    box-sizing: border-box;
+    border-right: solid 1px #bbb;
+}
+.footer-col:nth-child(4) {
+    border: none;
+}
+
+.ta-l {
+    text-align: left;
+}
+.flt {
+    float: left;
+}
+
+.flt:nth-child(4):after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 1em;
+    clear: both;
+}
+
+.large-25 {
+    width: 25%;
+}
+
+.footer-col a {
+    display: block;
+    margin: 0.3em 0;
+}
+
+@media (max-width: 550px) {
+    .small-50 {
+        width: 50%;
+    }
+    .footer-col:nth-child(2) {
+        border: none;
+    }
+}
+
+@media (max-width: 300px) {
+    .tiny-100 {
+        width: 100%;
+    }
+    .footer-col {
+        border: none;
+    }
+}
+.card {
+    width: 18rem;
+}
